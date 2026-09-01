@@ -18,13 +18,14 @@
     height: auto;
 }
 body{
-    background-color: rgb(194, 194, 131);
-    background-size: cover;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    min-height: 100vh;
 }
 h1{
     display: flex;
-    color: beige;
+    color: rgb(20, 20, 20);
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -39,7 +40,7 @@ h1:hover{
 
 header{
     height: 90px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(251, 255, 5);
 }
 
 main{
@@ -47,6 +48,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: rgb(106, 102, 102);
 }
 
 button{
@@ -61,14 +63,14 @@ button{
     
 }
 button:hover{
-    color: rgb(107, 216, 158);
+    color: rgb(209, 216, 107);
 }
 
 footer{
     margin-top: 129px;
-    height: 69px;
+    height: 39px;
     padding: 15px 20px;
-    background-color: black;
+    background-color: rgb(251, 251, 20);
     align-items: center;
     display: flex;
 }
@@ -78,7 +80,7 @@ footer{
     padding: 12px 20px;
 }
 h2{
-    color: beige;
+    color: rgb(14, 14, 14);
     justify-content: center;
 }
 
